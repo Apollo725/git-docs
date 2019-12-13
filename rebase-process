@@ -1,0 +1,4 @@
+git checkout <your-local-branch name here>
+git fetch
+git rebase origin/master
+git push origin <your-local-branch name here> --force-with-lease
